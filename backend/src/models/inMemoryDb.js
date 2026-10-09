@@ -4,7 +4,7 @@ class MockModel {
         this.collectionName = collectionName;
     }
 
-    async find(query = {}, select = '') {
+    find(query = {}, select = '') {
         let results = [...this.collection];
 
         // Basic query support ($or, simple match)
@@ -20,7 +20,29 @@ class MockModel {
             });
         }
 
-        return results;
+        const queryObj = {
+            results,
+            sort(sortObj) {
+                if (sortObj) {
+                    const key = Object.keys(sortObj)[0];
+                    const dir = sortObj[key];
+                    this.results.sort((a, b) => {
+                        if (a[key] < b[key]) return dir === 1 ? -1 : 1;
+                        if (a[key] > b[key]) return dir === 1 ? 1 : -1;
+                        return 0;
+                    });
+                }
+                return this;
+            },
+            then(resolve, reject) {
+                return Promise.resolve(this.results).then(resolve, reject);
+            },
+            catch(reject) {
+                return Promise.resolve(this.results).catch(reject);
+            }
+        };
+
+        return queryObj;
     }
 
     async findOne(query = {}) {
