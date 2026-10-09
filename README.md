@@ -2,6 +2,10 @@
 
 A production-ready, real-time chat application with quantum cryptography integration using Qiskit and Docker.
 
+## 🎥 Demo Video
+
+Watch the full application walkthrough: [demo_recording.mp4](demo_recording.mp4)
+
 ## 🚀 Features
 
 - **Real-time Messaging**: Instant bidirectional chat using WebSockets (Socket.IO)
