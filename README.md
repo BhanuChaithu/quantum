@@ -6,6 +6,10 @@ A production-ready, real-time chat application with quantum cryptography integra
 
 Watch the full application walkthrough: [demo_recording.mp4](demo_recording.mp4)
 
+## 📊 Presentation Slides
+
+Download the project presentation: [QuantumSecure-Chat-System.pptx](QuantumSecure-Chat-System.pptx)
+
 ## 🚀 Features
 
 - **Real-time Messaging**: Instant bidirectional chat using WebSockets (Socket.IO)
