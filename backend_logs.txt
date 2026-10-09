@@ -1,0 +1,200 @@
+﻿backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [PROXY] User.find called. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | 
+backend-1  | [SOCKET] New connection: cPcfXcsISgB0Q2N7AAAD
+backend-1  | [SOCKET] User connected: Bhanu (6971ab47f8c3e1e4da2ba618)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [SOCKET] User disconnected: Bhanu
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:220:17)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitReserved (/app/node_modules/socket.io/dist/typed-events.js:56:22)
+backend-1  |     at Socket._onclose (/app/node_modules/socket.io/dist/socket.js:554:14)
+backend-1  |     at Socket.ondisconnect (/app/node_modules/socket.io/dist/socket.js:513:14)
+backend-1  |     at Socket._onpacket (/app/node_modules/socket.io/dist/socket.js:442:22)
+backend-1  |     at /app/node_modules/socket.io/dist/client.js:207:24
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [PROXY] User.findOne called. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [AUTH] User logged in: Alice
+backend-1  | [PROXY] User.find called. Mode: REAL
+backend-1  | 
+backend-1  | [SOCKET] New connection: YGwaWraY0elRkaLgAAAF
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [SOCKET] User connected: Alice (6971aacff8c3e1e4da2ba613)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [SOCKET] User disconnected: Alice
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:220:17)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitReserved (/app/node_modules/socket.io/dist/typed-events.js:56:22)
+backend-1  |     at Socket._onclose (/app/node_modules/socket.io/dist/socket.js:554:14)
+backend-1  |     at Client.onclose (/app/node_modules/socket.io/dist/client.js:253:20)
+backend-1  |     at Socket.emit (node:events:529:35)
+backend-1  |     at Socket.onClose (/app/node_modules/engine.io/build/socket.js:320:18)
+backend-1  |     at Object.onceWrapper (node:events:631:28)
+backend-1  |     at WebSocket.emit (node:events:517:28)
+backend-1  |     at WebSocket.onClose (/app/node_modules/engine.io/build/transport.js:114:14)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:220:17)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitReserved (/app/node_modules/socket.io/dist/typed-events.js:56:22)
+backend-1  |     at Socket._onclose (/app/node_modules/socket.io/dist/socket.js:554:14)
+backend-1  |     at Client.onclose (/app/node_modules/socket.io/dist/client.js:253:20)
+backend-1  |     at Socket.emit (node:events:529:35)
+backend-1  |     at Socket.onClose (/app/node_modules/engine.io/build/socket.js:320:18)
+backend-1  |     at Object.onceWrapper (node:events:631:28)
+backend-1  |     at WebSocket.emit (node:events:517:28)
+backend-1  |     at WebSocket.onClose (/app/node_modules/engine.io/build/transport.js:114:14)
+backend-1  | [SOCKET] User disconnected: Bhanu
+backend-1  | [PROXY] User.find called. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | 
+backend-1  | [SOCKET] New connection: Rgc4uJ6mv9p4hJ5gAAAH
+backend-1  | [SOCKET] User connected: Alice (6971aacff8c3e1e4da2ba613)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [PROXY] User.find called. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | 
+backend-1  | [SOCKET] New connection: DksYv2Jk0HY7ZbCyAAAJ
+backend-1  | [SOCKET] User connected: Alice (6971aacff8c3e1e4da2ba613)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [SOCKET] User disconnected: Alice
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:220:17)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitReserved (/app/node_modules/socket.io/dist/typed-events.js:56:22)
+backend-1  |     at Socket._onclose (/app/node_modules/socket.io/dist/socket.js:554:14)
+backend-1  |     at Socket.ondisconnect (/app/node_modules/socket.io/dist/socket.js:513:14)
+backend-1  |     at Socket._onpacket (/app/node_modules/socket.io/dist/socket.js:442:22)
+backend-1  |     at /app/node_modules/socket.io/dist/client.js:207:24
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [PROXY] User.findOne called. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [AUTH] User logged in: Bhanu
+backend-1  | [PROXY] User.find called. Mode: REAL
+backend-1  | 
+backend-1  | [SOCKET] New connection: yvd53iYcmm8gwr0DAAAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [SOCKET] User connected: Bhanu (6971ab47f8c3e1e4da2ba618)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [PROXY] User.find called. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | 
+backend-1  | [SOCKET] New connection: dUyxcjWVkRtM8xDVAAAN
+backend-1  | [SOCKET] User connected: Bhanu (6971ab47f8c3e1e4da2ba618)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:220:17)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitReserved (/app/node_modules/socket.io/dist/typed-events.js:56:22)
+backend-1  |     at Socket._onclose (/app/node_modules/socket.io/dist/socket.js:554:14)
+backend-1  |     at Socket.ondisconnect (/app/node_modules/socket.io/dist/socket.js:513:14)
+backend-1  |     at Socket._onpacket (/app/node_modules/socket.io/dist/socket.js:442:22)
+backend-1  |     at /app/node_modules/socket.io/dist/client.js:207:24
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | [SOCKET] User disconnected: Bhanu
+backend-1  | [PROXY] User.findOne called. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [AUTH] User logged in: Bob
+backend-1  | [PROXY] User.find called. Mode: REAL
+backend-1  | 
+backend-1  | [SOCKET] New connection: rYsw8bMSQ_2dcK6QAAAP
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [PROXY] new User() created. Mode: REAL
+backend-1  | [SOCKET] User connected: Bob (6971aaabf8c3e1e4da2ba60e)
+backend-1  | [SOCKET ERROR] Failed to update last seen: ReferenceError: User is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:91:13)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | 
+backend-1  | [MESSAGE] Bhanu ΓåÆ Bob
+backend-1  | [MESSAGE] Content: "hi"
+backend-1  | [QUANTUM] Requesting quantum key...
+backend-1  | [MESSAGE ERROR] ReferenceError: generateQuantumKey is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:114:36)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | 
+backend-1  | [MESSAGE] Bob ΓåÆ Bhanu
+backend-1  | [MESSAGE] Content: "hi"
+backend-1  | [QUANTUM] Requesting quantum key...
+backend-1  | [MESSAGE ERROR] ReferenceError: generateQuantumKey is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:114:36)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | 
+backend-1  | [MESSAGE] Alice ΓåÆ Bhanu
+backend-1  | [MESSAGE] Content: "hi"
+backend-1  | [QUANTUM] Requesting quantum key...
+backend-1  | [MESSAGE ERROR] ReferenceError: generateQuantumKey is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:114:36)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+backend-1  | 
+backend-1  | [MESSAGE] Bob ΓåÆ Bhanu
+backend-1  | [MESSAGE] Content: "hi"
+backend-1  | [QUANTUM] Requesting quantum key...
+backend-1  | [MESSAGE ERROR] ReferenceError: generateQuantumKey is not defined
+backend-1  |     at Socket.<anonymous> (/app/src/server.js:114:36)
+backend-1  |     at Socket.emit (node:events:517:28)
+backend-1  |     at Socket.emitUntyped (/app/node_modules/socket.io/dist/typed-events.js:69:22)
+backend-1  |     at /app/node_modules/socket.io/dist/socket.js:697:39
+backend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
