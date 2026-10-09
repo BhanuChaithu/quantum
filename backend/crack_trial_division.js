@@ -63,9 +63,9 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true,
         continueCracking(cipherToCrack);
     })
     .catch(err => {
-        console.log("⚠️ Database connection failed. Ensure MongoDB is running.");
-        console.error(err.message);
-        process.exit(1);
+        console.log("⚠️ Database offline. Running in DEMO MODE with sample ciphertext...");
+        console.log("--------------------------------\n");
+        continueCracking("553246736447566b58312b78595a2e2e2e");
     });
 
 function continueCracking(ciphertext) {
